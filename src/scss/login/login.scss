@@ -1,0 +1,38 @@
+.login{
+  flex: 1;
+  margin-top: 20vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo{
+  margin-bottom: 5px;
+  margin-left: -100px;
+}
+.login-body{
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 2%;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.login-button{
+  color: #ffffff;
+}
+
+.login-img{
+  width: 60%;
+  padding-bottom: 8%;
+}
+.logo-img{
+  width: 80%;
+}
+.content-right{
+  margin-left: 20vw;
+}
+
+.logout-a{
+  cursor: pointer;
+}

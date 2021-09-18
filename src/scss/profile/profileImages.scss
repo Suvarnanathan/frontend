@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+}
+
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 50px auto;
+  margin-right: 25%;
+  margin-left: 25%;
+
+  .avatar-edit {
+    position: absolute;
+    right: -20px;
+    z-index: 1;
+    top: 25px;
+    margin-top: 180px;
+    input {
+      display: none;
+      + label {
+        display: inline-block;
+        background-color: white;
+
+        width: 34px;
+        height: 34px;
+        margin-bottom: 0;
+        border-radius: 100%;
+        border: 1px solid transparent;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+        font-weight: normal;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+  .avatar-preview {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid hsl(75, 2%, 40%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    > div {
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
